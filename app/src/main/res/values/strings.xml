@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Welcome</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_custome_layout">CustomeLayoutActivity</string>
+    <string name="title_activity_view_pager_slider">ViewPagerSliderActivity</string>
+    <string name="title_activity_custom_view_pager">CustomViewPagerActivity</string>
+</resources>
