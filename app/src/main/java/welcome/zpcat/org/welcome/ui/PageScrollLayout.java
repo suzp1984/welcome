@@ -11,7 +11,7 @@
  * you entered into with iBoxpay inc.
  */
 
-package welcome.zpcat.org.welcome;
+package welcome.zpcat.org.welcome.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

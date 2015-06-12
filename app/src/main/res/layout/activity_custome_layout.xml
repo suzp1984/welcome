@@ -16,7 +16,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-    <welcome.zpcat.org.welcome.PageScrollLayout
+    <welcome.zpcat.org.welcome.ui.PageScrollLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/sv_page"
             android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/guide_02"/>
 
-    </welcome.zpcat.org.welcome.PageScrollLayout>
+    </welcome.zpcat.org.welcome.ui.PageScrollLayout>
 
     <LinearLayout
             android:id="@+id/lv_guide_posints"

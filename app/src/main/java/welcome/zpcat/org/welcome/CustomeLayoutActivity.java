@@ -8,6 +8,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import welcome.zpcat.org.welcome.ui.PageScrollLayout;
+
 public class CustomeLayoutActivity extends Activity {
 
     private ImageView mPointOneIv;
