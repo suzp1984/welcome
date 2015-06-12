@@ -43,6 +43,15 @@
                 <category android:name="org.zpcat.welcome.sample_code" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".GestureSlideActivity"
+            android:label="@string/title_activity_gesture_slide" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="org.zpcat.welcome.sample_code" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

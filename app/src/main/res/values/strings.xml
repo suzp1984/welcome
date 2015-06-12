@@ -6,4 +6,5 @@
     <string name="title_activity_custome_layout">CustomeLayoutActivity</string>
     <string name="title_activity_view_pager_slider">ViewPagerSliderActivity</string>
     <string name="title_activity_custom_view_pager">CustomViewPagerActivity</string>
+    <string name="title_activity_gesture_slide">GestureSlideActivity</string>
 </resources>
