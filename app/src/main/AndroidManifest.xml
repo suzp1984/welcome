@@ -34,6 +34,14 @@
                 <category android:name="org.zpcat.welcome.sample_code" />
             </intent-filter>
         </activity>
+        <activity android:name=".ViewPagerHalfTransformer"
+                  android:label="@string/half_transformer_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="org.zpcat.welcome.sample_code" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".CustomViewPagerActivity"
             android:label="@string/title_activity_custom_view_pager" >
