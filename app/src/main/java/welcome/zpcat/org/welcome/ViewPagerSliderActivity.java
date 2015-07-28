@@ -15,6 +15,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import welcome.zpcat.org.welcome.widget.SpringIndicator;
+
 public class ViewPagerSliderActivity extends Activity {
 
     private ViewPager mPager;
@@ -30,6 +32,9 @@ public class ViewPagerSliderActivity extends Activity {
 
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setAdapter(new SlidePageAdapter());
+
+        SpringIndicator springIndicator = (SpringIndicator) findViewById(R.id.indicator);
+        springIndicator.setViewPager(mPager);
     }
 
     @Override
@@ -58,7 +63,7 @@ public class ViewPagerSliderActivity extends Activity {
 
         @Override
         public int getCount() {
-            return 2;
+            return 4;
         }
 
         @Override
@@ -74,6 +79,12 @@ public class ViewPagerSliderActivity extends Activity {
                     resid = R.drawable.guide_01;
                     break;
                 case 1:
+                    resid = R.drawable.guide_02;
+                    break;
+                case 2:
+                    resid = R.drawable.guide_01;
+                    break;
+                case 3:
                     resid = R.drawable.guide_02;
                     break;
                 default:
